@@ -1,0 +1,174 @@
+.downloadApp{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    background-color: #131313;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#container-app{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#container-app span{
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    color: #DE9519;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+#shape-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #272525;
+}
+
+#download-img-app{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.download-android{
+    width: 160px;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.download-ios{
+    margin-left: 40px;
+    width: 150px;
+}
+
+#download-img-app button{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+    color: #DE9519;
+    border-width: 3px;      
+    border-style: solid;
+    border-color: #DE9519;
+}
+
+.isotipo-app{
+    display: none;
+}
+
+.app-smartphone{
+    width: 300px;
+    position: absolute;
+    left: 100px;
+}
+
+@media screen and (min-width: 1440px){
+    .app-smartphone{
+        width: 300px;
+        position: absolute;
+        left: 200px;
+    }
+
+}
+
+.app-logo{
+    width: 470px;
+    position: absolute;
+    right: -154px;
+}
+
+@media only screen and (max-width : 700px) {
+    .isotipo-app img{
+        display: none;
+    }
+    
+    .app-smartphone{
+        display: none;
+    }
+
+    .app-logo{
+        display: none;
+    }
+  }
+
+  #shape-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #272525;
+}
+
+
+@media only screen and (max-width : 425px) {
+    
+    #shape-app{
+        width: 300px;
+        font-size: 10px;
+        height: 100px;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    #shape-app p{
+        margin-top: 6px;
+        font-size: 15px;
+    }
+
+    .download-android{
+        width: 100px;
+        margin-top: 2px;
+        margin-right: 10px;
+    }
+    
+    .download-ios{
+        margin-left: 40px;
+        width: 100px;
+    }
+
+    #container-app span{
+        width: 500px;
+        font-family: 'Roboto', sans-serif;
+        color: #DE9519;
+        margin-bottom: 20px;
+        margin-left: 200px;
+    }
+  }

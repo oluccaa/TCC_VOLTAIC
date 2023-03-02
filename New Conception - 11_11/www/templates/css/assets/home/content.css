@@ -1,0 +1,117 @@
+.content{
+    position: relative;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    width: 25rem;
+    margin:  auto;
+    top: 30%;
+    transform: translateY(-30%);
+}
+
+@media only screen and (max-width : 768px) {
+    .content{
+        width: 20rem;
+    } 
+  }
+
+h2{
+    text-align: center;    
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 12px;
+    font-size: 20px; 
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+
+h1 {
+    font-family: 'Roboto-Black', sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+
+h1 span{
+    font-family: 'Roboto-Black', sans-serif;
+    color: #DE9519;
+    font-size: 25px;
+}
+
+p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    color: #DE9519;
+    font-size: 15px;
+    margin-top: 70px;
+    font-weight:600;
+}
+
+/*-------------------- ↓ icons ↓ --------------------*/
+
+.bar-icons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 50px;
+    bottom: -5rem;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons li{
+    list-style: none;
+}
+
+.icons li a{
+    display: inline-block;
+    margin-right: 20px;
+    background: #272525;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.icons li:nth-child(3) a{
+    margin-right: 0px;
+} 
+
+.icons li a:hover{
+    background-color:#de9519;
+    transform: translateY(-10px);
+}
+
+.icons li a img{
+    transform: scale(0.5);
+}
+
+.icons li a .img1{
+    width: 50px;
+}
+
+.icons li a .img2{
+    width: 50px;
+}
+
+.icons li a .img3{
+    width: 50px;
+}

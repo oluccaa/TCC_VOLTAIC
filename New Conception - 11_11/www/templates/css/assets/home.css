@@ -1,0 +1,29 @@
+@import url(../assets-font.css);
+@import url(home/menu.css);
+@import url(home/content.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #131313;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    background-color: #131313;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #272525;
+    border-radius: 25px;
+}
+
+.nav-mobile{
+    display: none;
+}

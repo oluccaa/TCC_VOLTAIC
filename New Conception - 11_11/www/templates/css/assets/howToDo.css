@@ -1,0 +1,100 @@
+.howToDo{
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    background-color: #131313;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftRow{
+    position: relative;
+    width: 8px;
+    height: 300px;
+    top: 338px;
+    left: 14px;
+    background-color: #de9519;
+}
+.rightRow{
+    position: relative;
+    width: 8px;
+    height: 300px;
+    bottom: 340px;
+    right: 13px;
+    background-color: #de9519;
+}
+
+.howToDo .HowText img{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+
+    width: 50px;
+}
+
+.howToDo .HowText h3{
+    font-size: 25px;
+}
+
+.howToDo h4{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #de9519;
+}
+
+
+.HowText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.coninueHow{
+    margin-left: 2%;
+}
+
+@media only screen and (max-width : 1366px) {
+    .leftRow{
+        width: 8px;
+        height: 150px;
+        top: 255px;
+        left: 13+px;
+    }
+    .rightRow{
+        width: 8px;
+        height: 150px;
+        bottom: 255px;
+        right: 11px;
+    }
+  }
+
+@media only screen and (max-width : 700px) {
+    .leftRow{
+        display: none;    
+    }
+    .rightRow{
+        display: none;    
+    }
+    .imgHow{
+        display: none;    
+    }
+
+    .coninueHow{
+        margin-left: 0%;
+        margin-bottom: 35%;
+    }
+    .howToDo{
+        flex-direction: column;
+    }
+  }
+
+@media only screen and (max-width : 425px) {
+    .HowText h3{
+        margin-top: -50px;
+    }
+  }
