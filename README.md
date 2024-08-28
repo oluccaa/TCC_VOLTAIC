@@ -15,3 +15,5 @@ Nosso sistema buscava trazer um incentivo ao usuário sobre a energia solar. Com
 - Comparações econômicas entre empresas
 
 Iriamos convencê-lo que a energia solar é o melhor meio de consumo para sua casa, comércio ou indústria.
+
+Para entender mais sobre o projeto, deixei nesse repositório o arquivo "Apresentação - Energia solar VOLTAIC" para melhor entendimento.
